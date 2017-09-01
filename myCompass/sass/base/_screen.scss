@@ -1,0 +1,39 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background: url(../images/bg.jpg);
+	background-size: 100% 100%;
+}
+input{
+	padding: 0;
+	margin: 0;
+	background: none;
+	border: 0;
+}
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+#loading{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.again{
+	@include button-sprite("again_btn");
+}
+
+.reupload{
+	@include button-sprite("reupload");
+}
+.logo{
+	@include icons-sprite("logo")
+}

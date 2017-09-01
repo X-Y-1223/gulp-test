@@ -1,0 +1,10 @@
+@import "compass/utilities/sprites";	// 加载compass sprites模块
+
+$button-layout: smart;        		// 默认布局方式为vertical/horizontal/diagonal/smart
+$button-sprites-spacing: 5px;          // 配置单个sprite间距为5px，默认为0px
+@import "button/*.png";					// 导入button目录下所有png图片
+// @include all-button-sprites;             // 输出所有的雪碧图css
+
+$icons-layout: smart;
+$icons-sprites-spacing: 10px;
+@import "icons/*.png";
